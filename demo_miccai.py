@@ -149,7 +149,6 @@ if __name__ == '__main__':
         spec_results.append(curr_spec)
 
         print('\nSSM model: '+str(np.mean(curr_results[0]))+' size: '+str(np.mean(curr_size_basis[0]))+' spec: '+str(np.mean(curr_spec[0])))
-        print('\nLocalized models (Geodesic)')
         print('\nLSSM: '+str(np.mean(curr_results[1]))+' size: '+str(np.mean(curr_size_basis[1]))+' spec: '+str(np.mean(curr_spec[1])))
         print('\nKLSSM+Grass: '+str(np.mean(curr_results[2]))+' size: '+str(np.mean(curr_size_basis[2]))+' spec: '+str(np.mean(curr_spec[2])))
         print('\nKLSSM+Kernel: '+str(np.mean(curr_results[3]))+' size: '+str(np.mean(curr_size_basis[3]))+' spec: '+str(np.mean(curr_spec[3])))
